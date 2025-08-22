@@ -16,7 +16,9 @@ go get github.com/casbin/fasthttp-auth
 
 ## Quick Start
 
-### 1. Configuration Files
+
+### 1. Create Configuration Files
+
 
 **`authz_model.conf`**:
 ```conf
@@ -40,7 +42,9 @@ p, alice, /data1, GET
 p, bob, /data2, POST
 ```
 
-### 2. Usage
+
+### 2. Run Your Application
+
 
 ```go
 package main
@@ -98,4 +102,3 @@ go run ./example
 ## License
 
 Apache-2.0, see [LICENSE](LICENSE) file
-
